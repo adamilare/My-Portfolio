@@ -127,3 +127,17 @@ nav > .mob-def {
   order: 3;
   flex-grow: 0;
 }
+
+#menu-svg,
+.social-svg {
+  width: 40px;
+  height: 40px;
+}
+
+#bkg-svg {
+  width: 132px;
+  height: 318px;
+  position: fixed;
+  bottom: -50px;
+  right: 0;
+}
