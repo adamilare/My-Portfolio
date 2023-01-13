@@ -14,6 +14,13 @@ body {
   background: #1c1a19;
 }
 
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
 .bkg-black {
   background: #1c1a19;
 }
@@ -76,8 +83,8 @@ nav > .mob-def {
   right: 0;
 }
 
-.work-item > h1 {
-  font-family: "Crete Round", "Trebuchet MS", "Gill Sans", sans-serif;
+.work-item > h3 {
+  font-family: var(--font-crete);
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -90,20 +97,22 @@ nav > .mob-def {
   flex-grow: 0;
 }
 
-.work-item > h1,
+.work-item > h2,
 .work-item > ul,
-.about-me > h1 {
+.about-me > h2 {
   margin: 0;
   padding: 0;
 }
 
-.work-item:not(:first-child, :nth-of-type(1)) > h1 {
-  font-family: "Crete Round", "Trebuchet MS", "Gill Sans", sans-serif;
+.work-item:not(:first-child, :nth-of-type(1)) > h3 {
+  font-family: var(--font-crete);
   color: #fff;
+  padding: 0 12px;
   margin-top: 60px;
 }
 
 .work-item > p {
+  font-family: var(--font-inter);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -185,21 +194,13 @@ nav > .mob-def {
   padding: 0;
 }
 
-.poppins {
-  font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.crete {
-  font-family: "Crete Round", "Courier New", Courier, monospace;
-}
-
 #headline-wrapper h1,
-#about-me h1 {
-  /* font-family: "Crete Round", "Courier New", Courier, monospace; */
+#about-me h2 {
+  font-family: var(--font-crete);
   font-style: normal;
   font-weight: 400;
-  font-size: 52px;
-  line-height: 64px;
+  font-size: 72px;
+  line-height: 88px;
   letter-spacing: 0.37px;
   color: #ff6b00;
   flex: none;
@@ -221,14 +222,25 @@ nav > .mob-def {
   flex-grow: 0;
 }
 
-#headline-wrapper p,
-#about-me p {
-  font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
+#headline-wrapper p {
+  font-family: var(--font-poppin);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #fff;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+#about-me p {
+  font-family: var(--font-inter);
+  color: #f4f5f7;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
   flex: none;
   order: 2;
   flex-grow: 0;
@@ -261,7 +273,7 @@ nav > .mob-def {
 }
 
 #works-header {
-  font-family: "Crete Round", "Trebuchet MS", "Gill Sans", sans-serif;
+  font-family: var(--font-crete);
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -320,7 +332,7 @@ a.btn-a,
   border: 1px solid #f55800;
   justify-content: center;
   text-decoration: none;
-  font-family: "Inter", "Gill Sans", "Trebuchet MS", sans-serif;
+  font-family: var(--font-inter);
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -368,6 +380,11 @@ a.see-pr:disabled {
 }
 
 .work-item > ul li {
+  font-family: var(--font-inter);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -392,6 +409,7 @@ ul.skills-list {
 }
 
 ul.skills-list li {
+  font-family: var(--font-inter);
   color: #fff;
   font-style: normal;
   font-weight: 400;
@@ -404,6 +422,7 @@ ul.skills-list li {
 }
 
 ul.skills-list li:first-child {
+  font-family: var(--font-inai);
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -417,17 +436,9 @@ ul.skills-list li:first-child {
 }
 
 .work-item#first-item > ul li {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 10px 12px;
-  margin-right: 12px;
-  color: black;
+  color: #091e42;
   background: #fff;
   border: 1px solid #8993a4;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .work-item:not(:first-child, :nth-of-type(1)) {
@@ -457,14 +468,6 @@ ul.skills-list li:first-child {
   flex-direction: column;
 }
 
-.inai {
-  font-family: "InaiMathi", "Gill Sans", Calibri, "Trebuchet MS", sans-serif;
-}
-
-.inter {
-  font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
 .sq {
   width: 18px;
   height: 18px;
@@ -486,6 +489,7 @@ ul.skills-list li:first-child {
 }
 
 #contact p {
+  font-family: var(--font-inter);
   font-style: normal;
   font-weight: 700;
   font-size: 28px;
@@ -496,13 +500,14 @@ ul.skills-list li:first-child {
 }
 
 #contact form {
+  font-family: var(--font-inter);
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
 #contact input {
-  height: 48;
+  height: 48px;
   border: none;
   padding: 8px;
   border-bottom: 1px solid #dbd8d7;
@@ -539,4 +544,11 @@ ul.skills-list li:first-child {
   width: 50%;
   border-radius: 1px;
   background: #1c1a19;
+}
+
+:root {
+  --font-crete: "Crete Round", "Trebuchet MS", "Gill Sans", sans-serif;
+  --font-inter: "Inter", "Gill Sans", "Trebuchet MS", sans-serif;
+  --font-inai: "InaiMathi", "Gill Sans", calibri, "Trebuchet MS", sans-serif;
+  --font-poppin: "Poppins", verdana, geneva, tahoma, sans-serif;
 }
