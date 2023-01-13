@@ -21,7 +21,7 @@
 
 > Milestone 1 - Build a portfolio website with mobile first approach
 
-**My-Portfolio** is part of introductory project in Microverse software development program. The portfolio project will be built bit-by-bit taking through the trainee developer through necessary design methodologies and phases.
+**My-Portfolio** is part of introductory project in Microverse software development program. The portfolio project will be built bit-by-bit taking the trainee developer through necessary design methodologies and phases.
 
 ## 🛠 Built With <a name="built-with"></a>
 
