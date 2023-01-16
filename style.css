@@ -128,7 +128,6 @@ nav > .mob-def {
 }
 
 .work-item > ul {
-  display: flex;
   align-items: flex-start;
   list-style-type: none;
 }
@@ -439,18 +438,19 @@ ul.skills-list li:first-child {
   color: #091e42;
   background: #fff;
   border: 1px solid #8993a4;
+  float: left;
 }
 
 .work-item:not(:first-child, :nth-of-type(1)) {
   height: 100%;
   object-position: center;
-  background:
-    linear-gradient(
+  background: linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
     ),
     url(images/bkg-works.png);
+  float: left;
 }
 
 #skills-wrapper {
