@@ -321,25 +321,22 @@ nav > .mob-def {
 
 a.btn-a,
 .btn-a {
-  display: flex;
-  flex-direction: row;
-  padding: 12px;
-  max-width: 100%;
-  margin-top: 10px;
-  color: #fff;
-  background: #ff6b00;
-  border: 1px solid #f55800;
-  justify-content: center;
-  text-decoration: none;
-  font-family: var(--font-inter);
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  order: 3;
-  flex-grow: 0;
+    float: left;
+    padding: 12px;
+    margin-left: 12px;
+    max-width: 100%;
+    margin-top: 10px;
+    color: #fff;
+    background: #ff6b00;
+    border: 1px solid #f55800;
+    text-decoration: none;
+    font-family: var(--font-inter);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .btn-a.w-part {
@@ -384,9 +381,7 @@ a.see-pr:disabled {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+  float: left;
   padding: 10px 12px;
   margin-right: 12px;
   color: #fff;
