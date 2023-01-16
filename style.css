@@ -324,6 +324,7 @@ a.btn-a,
   display: flex;
   flex-direction: row;
   padding: 12px;
+  clear: both;
   max-width: 100%;
   margin-top: 10px;
   color: #fff;
@@ -384,6 +385,8 @@ a.see-pr:disabled {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
+  float: left;
+  margin-bottom: 15px;
   display: flex;
   flex-direction: row;
   align-items: center;
