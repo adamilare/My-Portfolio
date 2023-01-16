@@ -321,22 +321,22 @@ nav > .mob-def {
 
 a.btn-a,
 .btn-a {
-    float: left;
-    padding: 12px;
-    margin-left: 12px;
-    max-width: 100%;
-    margin-top: 10px;
-    color: #fff;
-    background: #ff6b00;
-    border: 1px solid #f55800;
-    text-decoration: none;
-    font-family: var(--font-inter);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 24px;
-    text-align: center;
-    letter-spacing: 0.03em;
+  float: left;
+  padding: 12px;
+  margin-left: 12px;
+  max-width: 100%;
+  margin-top: 10px;
+  color: #fff;
+  background: #ff6b00;
+  border: 1px solid #f55800;
+  text-decoration: none;
+  font-family: var(--font-inter);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .btn-a.w-part {
@@ -378,6 +378,7 @@ a.see-pr:disabled {
 .work-item > ul li {
   font-family: var(--font-inter);
   font-style: normal;
+
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
