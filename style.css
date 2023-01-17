@@ -128,7 +128,6 @@ nav > .mob-def {
 }
 
 .work-item > ul {
-  display: flex;
   align-items: flex-start;
   list-style-type: none;
 }
@@ -325,6 +324,7 @@ a.btn-a,
   display: flex;
   flex-direction: row;
   padding: 12px;
+  clear: both;
   max-width: 100%;
   margin-top: 10px;
   color: #fff;
@@ -385,6 +385,8 @@ a.see-pr:disabled {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
+  float: left;
+  margin-bottom: 15px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -492,7 +494,7 @@ ul.skills-list li:first-child {
   font-family: var(--font-inter);
   font-style: normal;
   font-weight: 700;
-  font-size: 28px;
+  font-size: 32px;
   line-height: 44px;
   text-align: center;
   color: #172b4d;
@@ -506,17 +508,24 @@ ul.skills-list li:first-child {
   gap: 20px;
 }
 
+#contact input,
+#contact textarea {
+  border: none;
+  border-bottom: 1px solid #dbd8d7;
+  padding: 8px;
+}
+
 #contact input {
   height: 48px;
-  border: none;
-  padding: 8px;
-  border-bottom: 1px solid #dbd8d7;
 }
 
 #contact textarea {
-  border: none;
-  padding: 8px;
   background: #fbf8f7;
+}
+
+#contact input:not(:focus):not(:placeholder-shown):invalid,
+#contact textarea:not(:focus):not(:placeholder-shown):invalid {
+  border: 2px dashed red;
 }
 
 #contact .form-button {
