@@ -520,6 +520,10 @@ ul.skills-list li:first-child {
   background: #fbf8f7;
 }
 
+#contact input:invalid {
+  border-bottom: #c50101;
+}
+
 #contact .form-button {
   align-self: center;
 }

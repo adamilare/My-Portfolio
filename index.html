@@ -178,16 +178,21 @@
               I'm always interested in hearing about new projects, so if you'd
               like to chat please get in touch.
             </p>
-            <form action="" id="form-contact">
+            <form id="form-contact" method="POST" action="https://formspree.io/f/xlekdbpd">
+
               <input
                 class="form-text"
                 type="text"
+                name="name"
                 placeholder="Full name"
+                maxlength="50"
                 required
               />
+
               <input
                 class="form-text"
                 type="email"
+                name="email"
                 placeholder="Email address"
                 required
               />
@@ -197,9 +202,12 @@
                 id=""
                 cols="30"
                 rows="4"
+                name="text-area"
+                maxlength="500"
                 placeholder="Enter text here"
                 required
               ></textarea>
+              
               <button class="form-button btn-a w-part" name="submit">
                 Get in touch
               </button>
