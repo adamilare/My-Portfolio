@@ -507,21 +507,24 @@ ul.skills-list li:first-child {
   gap: 20px;
 }
 
+#contact input:not(:focus):not(:placeholder-shown):invalid,
+#contact textarea:not(:focus):not(:placeholder-shown):invalid {
+  border: 2px dashed red;
+}
+
+#contact input,
+#contact textarea {
+  border: none;
+  border-bottom: 1px solid #dbd8d7;
+  padding: 8px;
+}
+
 #contact input {
   height: 48px;
-  border: none;
-  padding: 8px;
-  border-bottom: 1px solid #dbd8d7;
 }
 
 #contact textarea {
-  border: none;
-  padding: 8px;
   background: #fbf8f7;
-}
-
-#contact input:invalid {
-  border-bottom: #c50101;
 }
 
 #contact .form-button {
