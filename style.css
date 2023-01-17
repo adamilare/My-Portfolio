@@ -446,7 +446,8 @@ ul.skills-list li:first-child {
 .work-item:not(:first-child, :nth-of-type(1)) {
   height: 100%;
   object-position: center;
-  background: linear-gradient(
+  background:
+    linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
@@ -507,11 +508,6 @@ ul.skills-list li:first-child {
   gap: 20px;
 }
 
-#contact input:not(:focus):not(:placeholder-shown):invalid,
-#contact textarea:not(:focus):not(:placeholder-shown):invalid {
-  border: 2px dashed red;
-}
-
 #contact input,
 #contact textarea {
   border: none;
@@ -525,6 +521,11 @@ ul.skills-list li:first-child {
 
 #contact textarea {
   background: #fbf8f7;
+}
+
+#contact input:not(:focus):not(:placeholder-shown):invalid,
+#contact textarea:not(:focus):not(:placeholder-shown):invalid {
+  border: 2px dashed red;
 }
 
 #contact .form-button {
