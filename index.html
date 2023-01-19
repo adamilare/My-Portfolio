@@ -11,7 +11,19 @@
     <nav>
       <div class="mob-def">
         <div class="nav-logo">MyLogo</div>
-        <a href="">
+        <div class="menu-right">
+          <div class="desktop">
+            <ul>
+              <li><a href="" class="nav-item">Portfolio</a></li>
+              <li><a href="" class="nav-item">About</a></li>
+              <li><a href="" class="nav-item">Contact</a></li>
+              <li>
+                <a href=""><img src="images/icon-email.svg" alt="" /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <a href="" class="mobile">
           <img src="images/menu.svg" alt="menu" id="menu-svg" />
         </a>
       </div>
@@ -20,16 +32,18 @@
       <div class="main-wrapper">
         <section class="full-h bkg-black" id="headline-wrapper">
           <div class="flex-all">
-            <h1>
-              Hey There. <br />
-              I'm Dami
-            </h1>
-            <p class="tagline">I am a Software Developer</p>
-            <p class="descr">
-              I can help you build a product, feature or website. Look through
-              some of my work and experience! If you like what you see and have
-              a project you need coded, don't hesitate to contact me.
-            </p>
+            <div class="intro">
+              <h1>
+                Hey There. <br />
+                I'm Dami
+              </h1>
+              <p class="tagline">I am a Software Developer</p>
+              <p class="descr">
+                I can help you build a product, feature or website. Look through
+                some of my work and experience! If you like what you see and
+                have a project you need coded, don't hesitate to contact me.
+              </p>
+            </div>
             <div class="socials">
               <a href="https://github.com/adamilare">
                 <img src="images/git.svg" alt="git logo" class="social-svg" />
@@ -62,10 +76,13 @@
           </div>
         </section>
         <section class="my-works">
-          <h2 id="works-header">My Recent Works</h2>
-          <hr />
+          <div class="header-wrap">
+            <h2 id="works-header">My Recent Works</h2>
+            <hr />
+          </div>
           <div id="works-wrapper">
             <img
+              class="work-item"
               id="works-placeholder"
               src="images/Img Placeholder.png"
               alt="works image Placeholder"
@@ -86,7 +103,13 @@
               </ul>
               <a href="" class="btn-a w-part">See Project</a>
             </article>
-            <article class="work-item">
+            <article class="work-item desktop bkg-1">
+              <h3></h3>
+              <p></p>
+              <ul class="work-stack"></ul>
+              <a href="" class="btn-a">See Project</a>
+            </article>
+            <article class="work-item mobile">
               <h3>Profesional Art Printing Data</h3>
               <p>
                 A daily selection of privately personalized reads; no accounts
@@ -99,7 +122,20 @@
               </ul>
               <a href="" class="btn-a">See Project</a>
             </article>
-            <article class="work-item">
+            <article class="work-item mobile">
+              <h3>Profesional Art Printing Data</h3>
+              <p>
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard
+              </p>
+              <ul class="work-stack mobile">
+                <li class="stack-item">html</li>
+                <li class="stack-item">bootstrap</li>
+                <li class="stack-item">Ruby</li>
+              </ul>
+              <a href="" class="btn-a">See Project</a>
+            </article>
+            <article class="work-item mobile">
               <h3>Profesional Art Printing Data</h3>
               <p>
                 A daily selection of privately personalized reads; no accounts
@@ -112,7 +148,7 @@
               </ul>
               <a href="" class="btn-a">See Project</a>
             </article>
-            <article class="work-item">
+            <article class="work-item mobile">
               <h3>Profesional Art Printing Data</h3>
               <p>
                 A daily selection of privately personalized reads; no accounts
@@ -124,6 +160,92 @@
                 <li class="stack-item">Ruby</li>
               </ul>
               <a href="" class="btn-a">See Project</a>
+            </article>
+            <article class="work-item mobile">
+              <h3>Profesional Art Printing Data</h3>
+              <p>
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard
+              </p>
+              <ul class="work-stack">
+                <li class="stack-item">html</li>
+                <li class="stack-item">bootstrap</li>
+                <li class="stack-item">Ruby</li>
+              </ul>
+              <a href="" class="btn-a">See Project</a>
+            </article>
+            <article class="work-item mobile">
+              <h3>Profesional Art Printing Data</h3>
+              <p>
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard
+              </p>
+              <ul class="work-stack">
+                <li class="stack-item">html</li>
+                <li class="stack-item">bootstrap</li>
+                <li class="stack-item">Ruby</li>
+              </ul>
+              <a href="" class="btn-a">See Project</a>
+            </article>
+            <article class="work-item desktop bkg-2">
+              <h3>Data Dashboard Healthcare</h3>
+              <p>
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard
+              </p>
+              <ul class="work-stack">
+                <li class="stack-item">html</li>
+                <li class="stack-item">bootstrap</li>
+                <li class="stack-item">Ruby</li>
+              </ul>
+            </article>
+            <article class="work-item desktop bkg-3">
+              <h3>Website Protfolio</h3>
+              <p>
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard
+              </p>
+              <ul class="work-stack">
+                <li class="stack-item">html</li>
+                <li class="stack-item">bootstrap</li>
+                <li class="stack-item">Ruby</li>
+              </ul>
+            </article>
+            <article class="work-item desktop bkg-4">
+              <h3>Profesional Art Printing Data More</h3>
+              <p>
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard
+              </p>
+              <ul class="work-stack">
+                <li class="stack-item">html</li>
+                <li class="stack-item">bootstrap</li>
+                <li class="stack-item">Ruby</li>
+              </ul>
+            </article>
+            <article class="work-item desktop bkg-2">
+              <h3>Data Dashboard Healthcare</h3>
+              <p>
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard
+              </p>
+              <ul class="work-stack">
+                <li class="stack-item">html</li>
+                <li class="stack-item">bootstrap</li>
+                <li class="stack-item">Ruby</li>
+              </ul>
+            </article>
+            <article class="work-item desktop bkg-3">
+              <h3>Website Protfolio</h3>
+              <p>
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard
+              </p>
+              <ul class="work-stack">
+                <li class="stack-item">html</li>
+                <li class="stack-item">bootstrap</li>
+                <li class="stack-item">Ruby</li>
+              </ul>
             </article>
           </div>
         </section>
@@ -184,16 +306,32 @@
               action="https://formspree.io/f/xlekdbpd"
             >
               <input
-                class="form-text"
+                class="form-text mobile f-width"
                 type="text"
-                name="name"
+                name="full_name"
                 placeholder="Full name"
+                maxlength="30"
+                required
+              />
+              <input
+                class="form-text desktop h-width"
+                type="text"
+                name="fname"
+                placeholder="First Name"
+                maxlength="30"
+                required
+              />
+              <input
+                class="form-text desktop h-width"
+                type="text"
+                name="l_name"
+                placeholder="Last Name"
                 maxlength="30"
                 required
               />
 
               <input
-                class="form-text"
+                class="form-text f-width"
                 type="email"
                 name="email"
                 placeholder="Email address"
@@ -201,7 +339,7 @@
               />
 
               <textarea
-                class="form-textarea"
+                class="form-textarea f-width"
                 cols="30"
                 rows="4"
                 name="text-area"
