@@ -720,6 +720,27 @@ ul.skills-list li:first-child {
     min-height: 435px;
   }
 
+  .work-item[class*="bkg"]:hover {
+    animation: card-end 2s;
+    animation-fill-mode: both;
+  }
+
+  @keyframes card-end {
+    to {
+    z-index: 9999;
+    border-radius: 5px;
+    border: 10px solid var(--color-desk);
+    background-clip: border-box;
+    position: relative;
+    width: calc(100% + 40px);
+    height: calc(100% + 40px);
+    top: -20px;
+    left: -20px;
+    background-size: calc(100% + 40px);
+    background-position-y: 0px;
+    }
+  }
+
   .work-item:first-child {
     grid-column-start: 1;
     grid-column-end: 8;
