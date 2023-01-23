@@ -495,7 +495,6 @@ ul.skills-list li:first-child {
       rgba(38, 38, 38, 0.9) 61.94%
     ),
     url(images/bkg-works.png);
-  background-repeat: no-repeat;
 }
 
 #skills-wrapper {
@@ -762,6 +761,7 @@ ul.skills-list li:first-child {
   .work-item.desktop.bkg-2,
   .work-item.desktop.bkg-3 {
     background-repeat: no-repeat;
+    background-size: 100%;
   }
 
   #about-me {
