@@ -44,7 +44,9 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need Live Server
+In order to run this project you need Live Server for your local testing
+
+The porject is also available on [Gitup Page](https://adamilare.github.io/My-Portfolio/)
 
 ### Setup
 
@@ -70,14 +72,14 @@ Example commands:
 - GitHub: [@githubhandle](https://github.com/adamilare)
 - Twitter: [@twitterhandle](https://twitter.com/mailtodare)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/adamilare)
-
+- GitUp Page: [Portfolio](https://adamilare.github.io/My-Portfolio/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my fellow coding partners; Emmanuel Obi and Okonkwo Echezona.
+I would like to thank my fellow coding partners;
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
