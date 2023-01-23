@@ -757,6 +757,13 @@ ul.skills-list li:first-child {
     background: url(images/work-bkg-d-3.svg);
   }
 
+  .work-item.desktop.bkg-1,
+  .work-item.desktop.bkg-4,
+  .work-item.desktop.bkg-2,
+  .work-item.desktop.bkg-3 {
+    background-repeat: no-repeat;
+  }
+
   #about-me {
     height: 582px;
     height: calc(100% - 15px);
