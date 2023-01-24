@@ -46,7 +46,9 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need Live Server for your local testing
 
-The porject is also available on [Gitup Page](https://adamilare.github.io/My-Portfolio/)
+### Live Demo
+
+The porject is available on [Gitup Page](https://adamilare.github.io/My-Portfolio/)
 
 ### Setup
 
