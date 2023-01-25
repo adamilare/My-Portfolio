@@ -364,7 +364,7 @@ a.btn-a,
   clear: both;
   max-width: 100%;
   margin-top: 10px;
-  color: #fff;
+  color: #000;
   background: var(--color-mobile);
   border: 1px solid var(--color-mobile);
   justify-content: center;
@@ -386,15 +386,15 @@ a.btn-a,
 }
 
 .btn-a:hover {
-  color: var(--color-desk);
+  color: #c03b1b;
   background: #fff5e1;
   border: 1px solid var(--color-desk);
 }
 
 a.see-pr:enabled {
   color: #fff;
-  background: var(--color-desk);
-  border: 1px solid var(--color-desk);
+  background: #c34600;
+  border: 1px solid #c34600;
 }
 
 a.see-pr:disabled {
@@ -489,8 +489,7 @@ ul.skills-list li:first-child {
 .work-item:not(:first-child, :nth-of-type(1)) {
   height: 100%;
   object-position: center;
-  background:
-    linear-gradient(
+  background: linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
@@ -534,7 +533,7 @@ ul.skills-list li:first-child {
   padding: 40px 12px;
 }
 
-#contact p {
+#contact h2 {
   font-family: var(--font-inter);
   font-style: normal;
   font-weight: 700;
@@ -798,7 +797,7 @@ ul.skills-list li:first-child {
     align-items: flex-start;
   }
 
-  #contact > div > p {
+  #contact > div > h2 {
     flex: 2;
     font-weight: 700;
     font-size: 40px;
@@ -857,6 +856,6 @@ ul.skills-list li:first-child {
   --font-inai: "InaiMathi", "Gill Sans", calibri, "Trebuchet MS", sans-serif;
   --font-poppin: "Poppins", verdana, geneva, tahoma, sans-serif;
   --desk-s-pad: 80px;
-  --color-mobile: #ff6b00;
+  --color-mobile: #f55800;
   --color-desk: #f55800;
 }
