@@ -11,9 +11,8 @@
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Deployment](#triangular_flag_on_post-deployment)
+  - [Live Demo](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
@@ -46,22 +45,13 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need Live Server for your local testing
 
-### Live Demo
-
-The porject is available on [Gitup Page](https://adamilare.github.io/My-Portfolio/)
-
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
+### Live Demo
 
-```sh
-  cd my-folder
-  git clone git@github.com:adamilare/My-Portfolio.git
-```
---->
+The porject is available on [Gitup Page](https://adamilare.github.io/My-Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -82,6 +72,9 @@ Example commands:
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank my fellow coding partners;
+
+- [Sonika Kumar](https://github.com/Sonikak004)
+- [Stephen Katuli](https://github.com/stephenkati)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
