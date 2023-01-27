@@ -698,6 +698,11 @@ ul.skills-list li:first-child {
   .work-item.desktop {
     display: flex;
     justify-content: flex-end;
+    transition: transform 400ms ease-in-out;
+  }
+
+  .work-item.desktop:hover {
+    transform: scale(1.07);
   }
 
   #works-wrapper {
