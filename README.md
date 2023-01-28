@@ -11,7 +11,8 @@
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Live Demo](#triangular_flag_on_post-deployment)
+  - [Live Demo](#live-demo)
+  - [Walkthrough](#walkthrough)
 - [👥 Authors](#authors)
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
@@ -52,6 +53,12 @@ Clone this repository to your desired folder:
 ### Live Demo
 
 The porject is available on [Gitup Page](https://adamilare.github.io/My-Portfolio/)
+
+### Walkthrough
+
+![Desktop](https://api.apify.com/v2/key-value-stores/kUJVa3iDS6SgmbPbn/records/adamilare.github.io-scroll_original)
+
+![Mobile](https://api.apify.com/v2/key-value-stores/R71gRRYf53ztZKBZo/records/adamilare.github.io-scroll_original)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
