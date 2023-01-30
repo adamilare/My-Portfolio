@@ -509,6 +509,8 @@ ul.skills-list li:first-child {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
+  padding-top: 25px;
+  padding-bottom: 5px;
   color: #fff5e1;
 }
 

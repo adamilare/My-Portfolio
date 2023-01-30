@@ -1,6 +1,7 @@
 function mobileMenuClicked() {
   document.getElementById('mobile-menu-icon').classList.toggle('expanded');
   document.getElementById('mobile-menu-items').toggleAttribute('hidden');
+  document.getElementById('my-logo').toggleAttribute('hidden');
 }
 
 document
