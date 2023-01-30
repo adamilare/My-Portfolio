@@ -82,6 +82,8 @@ I would like to thank my fellow coding partners;
 
 - [Sonika Kumar](https://github.com/Sonikak004)
 - [Stephen Katuli](https://github.com/stephenkati)
+- [Eduardo Villarreal](https://github.com/evillaz)
+- [Fahim Morshed](https://github.com/fahim-86/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
