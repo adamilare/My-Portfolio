@@ -86,9 +86,43 @@ nav ul {
 }
 
 nav svg,
-.social-svg {
+.social-svg,
+#mobile-menu-icon {
   width: 40px;
   height: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#mobile-menu-icon {
+  color: #fff;
+  background: url(images/menu.svg);
+}
+
+#mobile-menu-icon.expanded {
+  background: url(images/menu-cancel.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#mobile-menu-items ul {
+  list-style: none;
+
+  margin: 0;
+  padding: 50px 0;
+}
+
+#mobile-menu-items ul li {
+  border-bottom: 1px solid #6f6c6b;
+}
+
+#mobile-menu-items .nav-item {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff5e1;
 }
 
 nav .desktop {
@@ -180,7 +214,8 @@ nav .desktop {
 #headline-wrapper,
 .my-works,
 #about-me,
-#contact {
+#contact,
+#mobile-menu-items {
   padding: 0 24px;
 }
 
@@ -489,8 +524,7 @@ ul.skills-list li:first-child {
 .work-item:not(:first-child, :nth-of-type(1)) {
   height: 100%;
   object-position: center;
-  background:
-    linear-gradient(
+  background: linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
