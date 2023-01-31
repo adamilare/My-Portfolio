@@ -5,31 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <!-- <script src="portfolio.js"></script> -->
     <title>Damilare Portfolio</title>
   </head>
   <body>
     <nav>
       <div class="mob-def">
-        <div class="nav-logo">MyLogo</div>
+        <div class="nav-logo" id="my-logo">MyLogo</div>
         <div class="menu-right">
           <div class="desktop">
             <ul>
-              <li><a href="" class="nav-item">Portfolio</a></li>
-              <li><a href="" class="nav-item">About</a></li>
-              <li><a href="" class="nav-item">Contact</a></li>
+              <li><a href="#portfolio" class="nav-item">Portfolio</a></li>
+              <li><a href="#about-me" class="nav-item">About</a></li>
+              <li><a href="#contact" class="nav-item">Contact</a></li>
               <li>
-                <a href=""><img src="images/icon-email.svg" alt="Email" /></a>
+                <a href="#" id="email-svg"
+                  ><img src="images/icon-email.svg" alt="Email"
+                /></a>
               </li>
             </ul>
           </div>
         </div>
-        <a href="" class="mobile">
-          <img src="images/menu.svg" alt="menu" id="menu-svg" />
+        <a href="#" class="mobile" id="mobile-menu-icon">
+          <!-- <img src="images/menu.svg" alt="menu" id="menu-svg" /> -->
         </a>
       </div>
     </nav>
     <main>
       <div class="main-wrapper">
+        <section
+          class="mobile-menu full-h mobile"
+          hidden
+          id="mobile-menu-items"
+        >
+          <ul>
+            <li><a href="#portfolio" class="nav-item">Portfolio</a></li>
+            <li><a href="#about-me" class="nav-item">About</a></li>
+            <li><a href="#contact" class="nav-item">Contact</a></li>
+          </ul>
+        </section>
         <section class="full-h bkg-black" id="headline-wrapper">
           <div class="flex-all">
             <div class="intro">
@@ -75,7 +89,7 @@
             </div>
           </div>
         </section>
-        <section class="my-works">
+        <section class="my-works" id="portfolio">
           <div class="header-wrap">
             <h2 id="works-header">My Recent Works</h2>
             <hr />
@@ -388,5 +402,6 @@
         </section>
       </div>
     </main>
+    <script src="portfolio.js"></script>
   </body>
 </html>
