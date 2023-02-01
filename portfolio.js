@@ -159,7 +159,7 @@ function setWorksOther(details) {
 }
 
 function displayPreviousWorks() {
-  for (let i = 0; i < previousWorks.length; i + 1) {
+  for (let i = 0; i < previousWorks.length; i += 1) {
     if (i === 0) setWorksFirstItem(previousWorks[0]);
     else if (i > 0) setWorksOther(previousWorks[i]);
   }
