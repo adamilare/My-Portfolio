@@ -883,12 +883,7 @@ ul.skills-list li:first-child {
       );
   }
 
-  .work-item.desktop a {
-    display: none;
-  }
-
-  .work-item h3:hover,
-  .work-item p:hover {
+  .work-item.desktop button {
     display: none;
   }
 
@@ -905,7 +900,7 @@ ul.skills-list li:first-child {
     display: none;
   }
 
-  .work-item.desktop:hover a {
+  .work-item.desktop:hover button {
     display: flex;
   }
 

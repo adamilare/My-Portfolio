@@ -138,6 +138,7 @@ function setWorksFirstItem(details) {
 function setWorksOtherDesktop(details) {
   const firstItemDetail = document.createElement('article');
   firstItemDetail.className = `work-item desktop ${details.img.desktop}`;
+  firstItemDetail.setAttribute('data-target', details.refId);
 
   firstItemDetail.innerHTML = getWorksArticleContent(details);
 
@@ -188,9 +189,11 @@ function getWorkModalContent(id) {
         </div>
   `;
 }
+
 function closeModal(modal) {
   modal.style.display = 'none';
 }
+
 function launchWorkModal(dataId) {
   const modal = document.getElementById('work-modal');
   modal.innerHTML = getWorkModalContent(dataId);
@@ -204,6 +207,12 @@ function launchWorkModal(dataId) {
 
 function prepareModal() {
   document.querySelectorAll('.work-item button').forEach((item) => {
+    item.onclick = () => {
+      launchWorkModal(item.getAttribute('data-target'));
+    };
+  });
+
+  document.querySelectorAll('.work-item').forEach((item) => {
     item.onclick = () => {
       launchWorkModal(item.getAttribute('data-target'));
     };
