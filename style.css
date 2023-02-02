@@ -661,6 +661,10 @@ ul.skills-list li:first-child {
   padding: 20px;
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.4);
+
+  /* background: #979493; */
+
+  /* mix-blend-mode: multiply; */
 }
 
 #work-modal .content > div {
