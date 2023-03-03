@@ -19,7 +19,7 @@
 
 # 📖 My-Portfolio <a name="about-project"></a>
 
-> Milestone 1 - Build a portfolio website with mobile first approach
+> Milestone 1 - This is a personal Portfolio website that showcase my abilities as a software developer and technologies I use.
 
 **My-Portfolio** is part of introductory project in Microverse software development program. The portfolio project will be built bit-by-bit taking the trainee developer through necessary design methodologies and phases.
 
